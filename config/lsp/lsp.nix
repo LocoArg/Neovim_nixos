@@ -25,60 +25,61 @@
           };
         };
         nil-ls = {enable = true;};
-        tsserver = {
-          enable = false;
-          filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
-          extraOptions = {
-            settings = {
-              javascript = {
-                inlayHints = {
-                  includeInlayEnumMemberValueHints = true;
-                  includeInlayFunctionLikeReturnTypeHints = true;
-                  includeInlayFunctionParameterTypeHints = true;
-                  includeInlayParameterNameHints = "all";
-                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                  includeInlayPropertyDeclarationTypeHints = true;
-                  includeInlayVariableTypeHints = true;
-                };
-              };
-              typescript = {
-                inlayHints = {
-                  includeInlayEnumMemberValueHints = true;
-                  includeInlayFunctionLikeReturnTypeHints = true;
-                  includeInlayFunctionParameterTypeHints = true;
-                  includeInlayParameterNameHints = "all";
-                  includeInlayParameterNameHintsWhenArgumentMatchesName = true;
-                  includeInlayPropertyDeclarationTypeHints = true;
-                  includeInlayVariableTypeHints = true;
-                };
-              };
-            };
-          };
-        };
+        #tsserver = {
+        #  enable = false;
+        #  filetypes = ["javascript" "javascriptreact" "typescript" "typescriptreact"];
+        #  extraOptions = {
+        #    settings = {
+        #      javascript = {
+        #        inlayHints = {
+        #          includeInlayEnumMemberValueHints = true;
+        #          includeInlayFunctionLikeReturnTypeHints = true;
+        #          includeInlayFunctionParameterTypeHints = true;
+        #          includeInlayParameterNameHints = "all";
+        #          includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+        #          includeInlayPropertyDeclarationTypeHints = true;
+        #          includeInlayVariableTypeHints = true;
+        #        };
+        #      };
+        #      typescript = {
+        #        inlayHints = {
+        #          includeInlayEnumMemberValueHints = true;
+        #          includeInlayFunctionLikeReturnTypeHints = true;
+        #          includeInlayFunctionParameterTypeHints = true;
+        #          includeInlayParameterNameHints = "all";
+        #          includeInlayParameterNameHintsWhenArgumentMatchesName = true;
+        #          includeInlayPropertyDeclarationTypeHints = true;
+        #          includeInlayVariableTypeHints = true;
+        #        };
+        #      };
+        #    };
+        #  };
+        #};
         eslint = {enable = true;};
         pyright = {enable = true;};
-        ruff-lsp = {enable = true;};
+        #ruff-lsp = {enable = true;};
+        r-language-server = {enable = true;};
 
-        rust-analyzer = {
-          enable = true;
-          installCargo = true;
-          installRustc = true;
-          settings = {
-            checkOnSave = true;
-            check = {
-              command = "clippy";
-            };
-            # inlayHints = {
-            #   enable = true;
-            #   showParameterNames = true;
-            #   parameterHintsPrefix = "<- ";
-            #   otherHintsPrefix = "=> ";
-            # };
-            procMacro = {
-              enable = true;
-            };
-          };
-        };
+        #rust-analyzer = {
+        #  enable = true;
+        #  installCargo = true;
+        #  installRustc = true;
+        #  settings = {
+        #    checkOnSave = true;
+        #    check = {
+        #      command = "clippy";
+        #    };
+        #    # inlayHints = {
+        #    #   enable = true;
+        #    #   showParameterNames = true;
+        #    #   parameterHintsPrefix = "<- ";
+        #    #   otherHintsPrefix = "=> ";
+        #    # };
+        #    procMacro = {
+        #      enable = true;
+        #    };
+        #  };
+        #};
       };
       # keymaps = {
       #   silent = true;

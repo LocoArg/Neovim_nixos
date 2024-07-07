@@ -22,7 +22,7 @@
     # ./git/lazygit.nix
     ./git/neogit.nix
 
-    ./languages/nvim-jdtls.nix
+    #./languages/nvim-jdtls.nix
     ./languages/nvim-lint.nix
     ./languages/typescript-tools-nvim.nix
     ./languages/treesitter/treesitter.nix
@@ -36,7 +36,7 @@
     ./lsp/lsp.nix
     ./lsp/lspsaga.nix
     ./lsp/trouble.nix
-
+    ./lsp/direnv.nix
     ./none-ls/none-ls.nix
 
     ./snippets/luasnip.nix

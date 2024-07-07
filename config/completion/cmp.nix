@@ -45,6 +45,7 @@
               {name = 'path'},
               {name = 'luasnip'},
               {name = 'cmdline'},
+              {name = 'cmp_r'},
               }, {
             {name = 'buffer'},
             })
