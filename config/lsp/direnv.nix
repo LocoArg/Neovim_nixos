@@ -1,8 +1,6 @@
-{
-    { 
-      plugins.direnv = {
-        enable = true;
-      } 
-    };
+{ 
+  plugins.direnv = {
+   enable = true;
+  }; 
 }
 
