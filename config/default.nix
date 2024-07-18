@@ -37,6 +37,7 @@
     ./lsp/lspsaga.nix
     ./lsp/trouble.nix
     ./lsp/direnv.nix
+    ./lsp/sniprun.nix
     ./none-ls/none-ls.nix
 
     ./snippets/luasnip.nix
