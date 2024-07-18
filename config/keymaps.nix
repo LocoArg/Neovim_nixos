@@ -47,6 +47,18 @@
     }
 
     # General maps
+   {
+      mode = ["n" "i"];
+      key = "<leader>is";
+      action = "<cmd>IronRepl<cr>";
+      options = {
+        silent = true;
+        noremap = true;
+        desc = "Start Iron";
+      };
+    }
+
+
     {
       mode = "n";
       key = "<leader>f";

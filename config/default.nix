@@ -23,6 +23,8 @@
     ./git/neogit.nix
 
     #./languages/nvim-jdtls.nix
+    #./languages/iron.nix
+    #./languages/rnvimr.nix
     ./languages/nvim-lint.nix
     ./languages/typescript-tools-nvim.nix
     ./languages/treesitter/treesitter.nix
@@ -36,8 +38,9 @@
     ./lsp/lsp.nix
     ./lsp/lspsaga.nix
     ./lsp/trouble.nix
-    ./lsp/direnv.nix
-    ./lsp/sniprun.nix
+    ./lsp/nuevo_iron.nix
+    ./lsp/nuevo_rnvim.nix
+
     ./none-ls/none-ls.nix
 
     ./snippets/luasnip.nix
@@ -78,8 +81,9 @@
     ./utils/ultimate-autopair.nix
     ./utils/undotree.nix
     ./utils/vim-be-good.nix
-    ./utils/wakatime.nix
+    #./utils/wakatime.nix
     ./utils/whichkey.nix
     ./utils/wilder.nix
+    ./utils/twilight.nix
   ];
 }
