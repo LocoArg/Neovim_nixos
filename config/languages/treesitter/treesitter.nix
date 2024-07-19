@@ -7,7 +7,7 @@
     settings.ensure_installed = ["markdown" 
     "markdown_inline" 
     "r"
-    "noweb"
+    "rnoweb"
     ];
 };
 }
